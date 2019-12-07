@@ -8,14 +8,19 @@ Some tweaks from the orignal groundstation codebase here:
 
 https://github.com/FOSSASystems/FOSSASAT-1/blob/master/Code/GroundStation/GroundStation.ino
 
+## Usage
+
+Needs jumper from IO23 to LoRa1 for DIO1 interrupt pin on SX1278
+
 ## Status
 
 * RX only - Does not deal with input commands
 * Uses Lora Pin mappings specific to the LoRa32 v2 rev 1.6
+* uses IO23 jumper to LoRa1 (for DIO1 interrupt pin on SX1278)
 * Reset Lora module using RST pin on setup()
 * Output nice things to the OLED
 
-![Gif me a break](https://i.ibb.co/sVCvt3G/IMG-1474.gif)
+![Gif me a break](https://i.ibb.co/DLVf80w/IMG-1475.jpg)
 
 ## Todo
 
